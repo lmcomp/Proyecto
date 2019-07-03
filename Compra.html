@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="CSS/CSSUnico.css">
-        <script src=""></script>
+        <script src="JS/JSUnico.js"></script>
     </head>
 
     <body>
         <h1 align="center" class="servicios">Compra</h1>
         
-        <header class="headerCom">
-                <ul class="compra">
-                    <li><a href="Index.html">Página principal</a></li>
+        <br>
+        
+        <header class="headerC">
+                <ul class="contacto">
+                    <li><a href="Index.html">Página Principal</a></li>
                     <li><a href="QuienesSomos.html">¿Quiénes somos?</a></li>
                     <li><a href="Servicios.html">Servicios</a></li>
                     <li><a href="Productos.html">Productos</a></li>
@@ -21,48 +23,57 @@
                 </ul>
             </header>
         
+        <br>
+        
         <center>
-        <form class="formularioCompra">
-            <fieldset class="fieldset">
-                <legend>Formulario de contacto</legend>
+        <form class="form1" name="form1" method="post" action="mailto: raul.rodriguez@universidadeuropea.es" onsubmit="return validarFormCompra()">
+            <fieldset>
+                <legend>Formulario de Compra</legend>
                 <br>
                 
-                <label class="nombre" placeholder="Nombre">Nombre: </label>
-                <input type="text">
-                
-                <br>
-                <br>
-                
-                <label class="nombre">Mail: </label>
-                <input type="text">
+                <label>Nombre: </label>
+                <input type="text" placeholder="Nombre" name="nombre1">
                 
                 <br>
                 <br>
                 
-                <label class="nombre">Teléfono: </label>
-                <input type="text">
+                <label>Mail: </label>
+                <input type="email" placeholder="Ejemplo:alguien@gmail.com" name="mail1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 
                 <br>
                 <br>
                 
-                <label class="checkbox">Asunto: </label>
-                <select>
-                    <option>Consultoría</option>
-                    <option>Desarrollo de proyectos</option>
-                    <option>Realización de pedidos</option>
-                    <option>Otros</option>
-                </select>
+                Teléfono:
+                <input type="text" placeholder="Ejemplo: 321524528" name="telefono1" pattern="[0-9]{9}" title="El teléfono debe contener máximo 9 dígitos">
                 
                 <br>
+                <br>
+                <p class="asuntoC">¿Que tipo desea comprar?</p>
                 
-                <label class="mensaje">Mensaje:</label>
-                <br>
-                <br>
-                <textarea placeholder="Introduzca aquí su mensaje" cols="60%" rows="10%" class="textArea"></textarea>
+                <input type="checkbox" name="inform" class="inform">Informática
+                <input type="checkbox" name="comunica" class="comunica">Comunicaciones
+                <input type="checkbox" name="video" class="video">Videojuegos
                 
                 <br>
+                <br>
+                
+                <input type="submit" value="Enviar datos" class="submit">
+                <input type="reset" value="Resetear datos" class="reset">
             </fieldset>
         </form>
         </center>
+        
+        <div class="footer">
+            
+        <p class="instagram"><a href="https://www.instagram.com/?hl=es" target="_blank">Instagram</a></p>
+        <img src="IMG/instagram.png" class="insta">
+            
+        <p class="facebook"><a href="https://es-es.facebook.com/" target="_blank">Facebook</a></p>
+        <img src="IMG/facebook.png" width="42px" height="42px" class="face">
+            
+        <p class="gmail"><a href="https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank">Gmail</a></p>
+        <img src="IMG/gmail.jpg" class="gma">
+            
+        </div>
     </body>
 </html>

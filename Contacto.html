@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="CSS/CSSUnico.css">
-        <script src=""></script>
+        <script src="JS/JSUnico.js"></script>
     </head>
 
-    <body>
+    <body align="center">
         <h1 class="Ptitulo" align="center">Contacto</h1>
         
         <header class="headerC">
@@ -24,47 +24,85 @@
         <br>
         
         <center>
-        <form class="formularioC">
+        <form class="form" name="form" method="post" action="mailto: raul.rodriguez@universidadeuropea.es" onsubmit="return validarForm()">
             <fieldset>
                 <legend>Formulario de contacto</legend>
                 <br>
                 
-                <label class="nombre" placeholder="Nombre">Nombre: </label>
-                <input type="text">
+                <label>Nombre: </label>
+                <input type="text" placeholder="Nombre" name="nombre">
                 
                 <br>
                 <br>
                 
-                <label class="nombre">Mail: </label>
-                <input type="text">
+                <label>Mail: </label>
+                <input type="email" placeholder="Ejemplo:alguien@gmail.com" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 
                 <br>
                 <br>
                 
-                <label class="nombre">Teléfono: </label>
-                <input type="text">
+                Teléfono:
+                <input type="text" placeholder="Ejemplo: 321524528" name="telefono" pattern="[0-9]{9}" title="El teléfono debe contener máximo 9 dígitos">
                 
                 <br>
                 <br>
+                <p class="asunto">Asunto:</p>
                 
-                <label class="checkbox">Asunto: </label>
-                <select>
-                    <option>Consultoría</option>
-                    <option>Desarrollo de proyectos</option>
-                    <option>Realización de pedidos</option>
-                    <option>Otros</option>
-                </select>
+                <input type="checkbox" name="consultoria" class="consultoría">Consultoría
+                <input type="checkbox" name="desarrollo" class="desarrollo">Desarrollo de proyectos
                 
                 <br>
                 
-                <label class="mensaje">Mensaje:</label>
-                <br>
-                <br>
-                <textarea placeholder="Introduzca aquí su mensaje" cols="60%" rows="10%" class="textArea"></textarea>
+                <input type="checkbox" name="pedidos" class="pedidos">Realización de pedidos
+                <input type="checkbox" name="otros" class="otros">Otros
                 
                 <br>
+                
+                <p class="mensaje">Mensaje:</p>
+                
+                <br>
+                
+                <textarea placeholder="Introduzca aquí su mensaje (opcional)" cols="40%" rows="5%" class="textArea"></textarea>
+
+                <br>
+                <br>
+                
+                <input type="submit" value="Enviar datos" class="submit">
+                <input type="reset" value="Resetear datos" class="reset">
+                
             </fieldset>
-        </form>
+        </form>  
         </center>
+            
+        <br>
+        <br>
+        <br>
+        
+        <pre class="direccion">
+        Dirección: Universidad europea de Madrid.
+        Campus Villaviciosa de Odón.
+        Calle Tajo S/N Villaviciosa de Odón.
+        Madrid TLF: 91 211 5673.
+        Mail: universidadeuropea@gmail.es</pre>
+                
+        <br>
+        <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.8053667224551!2d-3.920288063276317!3d40.373154914281216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419031a94d45e5%3A0x375a8b6ca7a1dc4c!2sUniversidad+Europea+de+Madrid+(Campus+Villaviciosa+de+Od%C3%B3n)!5e0!3m2!1ses!2ses!4v1561655700002!5m2!1ses!2ses" width="500" height="240" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+        
+        <br>
+        <br>
+        <br>
+        
+        <div class="footer1">
+            <p class="instagram1"><a href="https://www.instagram.com/?hl=es" target="_blank">Instagram</a></p>
+            <img src="IMG/instagram.png" class="inta1">
+            
+            <p class="facebook1"><a href="https://es-es.facebook.com/">Facebook</a></p>
+            <img src="IMG/facebook.png" class="face1">
+            
+            <p class="gmail1"><a href="https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=AddSession">Gmail</a></p>
+            <img src="IMG/gmail.jpg" class="gma1">
+        </div>
     </body>
 </html>
