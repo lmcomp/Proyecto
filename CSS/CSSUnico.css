@@ -5,10 +5,12 @@
     margin: 0px;
 }
 
+
+
 body{
     width: 100%;
     background-image: url(../IMG/fondo.jpg);
-    background-size: cover
+    background-size: cover;
 }
 
 .menu{
@@ -110,15 +112,6 @@ ul{
     text-align: center;
 }
 
-.div5{
-    position: absolute;
-    height: 10%;
-    bottom: 1%;
-    left: 0.5%;
-    color: white;
-    width: 98.8%
-}
-
 .carrusel{
     position: absolute;
     height: 40%;
@@ -132,48 +125,31 @@ a{
     color: white
 }
 
-.instagram{
-    margin-top: 2.7%;
-    margin-left: 31%;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    color: white;
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
 }
 
-.insta{
+.instagram{
     position: absolute;
-    bottom: 1%;
-    left: 38%
+    bottom: 10px;
 }
 
 .facebook{
-    margin-top: -1.7%;
-    margin-left: 48%;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    color: white;
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
 }
 
 .face{
-    position: absolute;
-    bottom: 1%;
-    left: 55%;
-}
-
-.gamil{
-    margin-top: -1.7%;
-    margin-left: 65%;
-    font-size: 20px;
-    font-style: italic;
-    color: red;
-}
-
-.gma{
-    position: absolute;
-    bottom: 1%;
-    left: 69.8%;
+    width: 35px;
 }
 
 /* CSS página servicios*/
@@ -245,6 +221,186 @@ ul{
 .videojuegos{
     margin-top: -35%;
     margin-left: 140%;
+}
+
+.parrafo1{
+    text-align: center;
+    padding: 0.4%;
+    color: white;
+    font-size: 20px;
+}
+
+.imgServicios{
+    margin-left: 17%;
+    margin-top: 3%
+}
+
+.divServicios{
+    height: 510px;
+    background-color: gray;
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.tituloServicios{
+    color: black;
+    text-align: center;
+}
+
+.instagram{
+    margin-top: 2.7%;
+    margin-left: 31%;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    color: white;
+}
+
+.insta{
+    position: absolute;
+    bottom: 1%;
+    left: 38%
+}
+
+.facebook{
+    margin-top: -1.7%;
+    margin-left: 48%;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    color: white;
+}
+
+.face{
+    position: absolute;
+    bottom: 1%;
+    left: 55%;
+}
+
+.gmail{
+    position: absolute;
+    font-size: 20px;
+    
+    font-style: italic;
+}
+
+.gma{
+    position: absolute;
+    top: 50%;
+    left: 69.8%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+}
+
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
+}
+
+.face{
+    width: 35px;
+}
+/* CSS ventana Diseño de aplicaciones */
+
+.divDiseñoApp{
+    background-color: gray;
+    height: 450px;
+    margin-top: 8%;
+    margin-left: 22%;
+    width: 60%
+}
+
+.introDiseño{
+    color: white;
+    text-align: center;
+}
+
+.parrafoDiseño{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+    width: 20%;
+}
+
+.img1{
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 40%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+}
+
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.gmail{
+    margin-left: 65%;
+    margin-top: 1.2%;
+    font-size: 20px;
+}
+
+.gma{
+    width: 30px;
+    margin-top: -0.9%;
+}
+
+.insta{
+    width: 35px;
+}
+
+.face{
+    width: 35px;
+}
+
+/* CSS Desarrollo de Proyectos (dentro de servicios) */
+
+.divDesarrollo{
+    height: 400px;
+    background-color: gray;
+    margin-top: 5%;
+    margin-left: 26%;
+    width: 50%;
+}
+
+.desarrolloT{
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 4%;
 }
 
 /* CSS ventana quienes somos */
@@ -319,98 +475,115 @@ ul{
     margin-left: 120%;
 }
 
-.instagram{
-    margin-top: 2.7%;
-    margin-left: 31%;
+.textoQuienesSomos{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    margin-left: 15%;
+    background-color: gray;
     font-size: 20px;
-    color: white;
-    font-style: italic;
-    color: white;
+    width: 62%;
+    margin-top: 2%;
+    height: 450px;
 }
 
-.insta{
+.certificaciones{
+    width: 20%;
+    height: 450px;
+    margin-left: 78.5%;
+    margin-top: -33%;
+}
+
+.img1QuienesSomos{
+    height: 35%;
+    margin-top: 5%;
+    width: 32%;
+    margin-left: -30%;
+}
+
+.DesarrolloWeb{
+    width: 15%;
     position: absolute;
-    bottom: 1%;
-    left: 38%
+    top: 70%;
+    left: 20%;
+    font-size: 20px;
+}
+
+.ConsultoriaComunicaciones{
+    width: 20%;
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    font-size: 20px;
+}
+
+.productosInformatica{
+    width: 20%;
+    position: absolute;
+    top: 68%;
+    left: 58.5%;
+    font-size: 20px;
+}
+
+.img2QuienesSomos{
+    height: 35%;
+    width: 32%;
+}
+
+.img3QuienesSomos{
+    height: 23.1%;
+    width: 20%;
+    position: absolute;
+    top: 42.3%;
+    left: 58%;
+}
+
+.certificacion1{
+    width: 90%;
+    height: 20%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.certificacion2{
+    margin-top: 30%;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.certificacionesT{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
 }
 
 .facebook{
-    margin-top: -1.7%;
-    margin-left: 48%;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    color: white;
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
 }
 
 .face{
-    position: absolute;
-    bottom: 1%;
-    left: 55%;
-}
-
-.gamil{
-    margin-top: -1.7%;
-    margin-left: 65%;
-    font-size: 20px;
-    font-style: italic;
-    color: red;
-}
-
-.gma{
-    position: absolute;
-    bottom: 1%;
-    left: 69.8%;
-}
-
-.p1{
-    color: white;
-    margin-left: 25%;
-    background-color: gray;
-    font-size: 20px;
-    color: black;
-    width: 52%;
-    margin-top: 2%;
-}
-
-.p2{
-    color: white;
-    margin-left: 25%;
-    background-color: gray;
-    font-size: 20px;
-    color: black;
-    width: 52%;
-    margin-top: 2%;
-}
-
-.p3{
-    color: white;
-    margin-left: 25%;
-    background-color: gray;
-    font-size: 20px;
-    color: black;
-    width: 52%;
-    margin-top: 2%;
-}
-
-.p4{
-    color: white;
-    margin-left: 25%;
-    background-color: gray;
-    font-size: 20px;
-    color: black;
-    width: 52%;
-    margin-top: 2%;
-}
-
-.p5{
-    color: white;
-    margin-left: 25%;
-    background-color: gray;
-    font-size: 20px;
-    color: black;
-    width: 52%;
-    margin-top: 2%;
+    width: 35px;
 }
 
 /* CSS ventana productos */
@@ -419,136 +592,119 @@ ul{
     color: white;
 }
 
-.headerP{
-    margin: auto;
-    width:1400px;
-    font-family: "Bauhaus 93";
-    text-align: center;
-    margin-left: 1.1%;
-}
-
-ul{
-    list-style: none;
-    position: relative;
-}
-
-.menuP li a{
-    background-color: gray;
-    color: black;
-    text-decoration: none;
-    padding: 4px 31px;
-    display: block;
-    font-size: 20px;
-    min-width: 120px;
-    position: relative;
-    border: 1px solid black;
-}
-
-.menuP li a:hover{
-    background-color: blue;
-    color: white;
-}
-
-.menuP > li{
-    float: left;
-}
-
-.menuP li ul{
-    display: none;
-    position: absolute;
-    width: 10%;
-    left: 15.8%;
-}
-
-.menuP li:hover > ul{
-    display: block;
-}
-
-.productosP{
-    margin-left: 27.88%;
-}
-
-.informaticaP{
-    margin-left: 116%;
-    margin-top: -28.5%;
-}
-
-.comunicacionesP{
-    margin-left: 116%;
-    margin-top: -28.5%;
-}
-
 .videojuegosP{
     margin-top: -28.5%;
     margin-left: 116%;
 }
 
-/* CSS ventana Compra */
-
-.headerCom{
-    margin: auto;
-    width:1400px;
-    font-family: "Bauhaus 93";
-    text-align: center;
-    position: absolute;
-    left: 9%;
+.headerP{
+    margin-left: 7%;
 }
 
-ul{
-    list-style: none;
+.contacto li ul li{
+    margin-left: 296.2%;
 }
 
-.compra li a{
+.divP{
     background-color: gray;
-    color: black;
-    text-decoration: none;
-    padding: 4px 31px;
-    display: block;
-    font-size: 20px;
-    min-width: 120px;
-    position: relative;
-    border: 1px solid black;
+    width: 52%;
+    height: 350px;
+    margin-left: 26%;
+    margin-top: 11%;
 }
 
-.compra li a:hover{
-    background-color: blue;
+.imgP{
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.introP{
     color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 13.5%;
 }
 
-.compra > li{
-    float: left;
+.introP1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
-.compra li ul{
-    display: none;
+.introP2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer{
     position: absolute;
-    width: 10%;
-    left: 15.8%;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
 }
 
-.compra li:hover > ul{
-    display: block;
+.instagram{
+    position: absolute;
+    bottom: 10px;
 }
 
-.informatica{
-    margin-left: 120%;
-    margin-top: -28.5%;
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
 }
 
-.comunicaciones{
-    margin-left: 120%;
-    margin-top: -28.5%;
+.insta{
+    width: 35px;
 }
 
-.videojuegos{
-    margin-top: -28.5%;
-    margin-left: 120%;
+.face{
+    width: 35px;
 }
+/* CSS ventana Compra*/
 
-.formularioCompra{
+
+.form1{
+    width: 35%;
+    margin-top: 12%;
     background-color: gray;
-    color: black;
-    margin-top: 10%
+}
+
+.asuntoC{
+    margin-top: -1%;
+}
+
+.inform{
+    margin-top: 1%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+}
+
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
+}
+
+.face{
+    width: 35px;
 }
 
 /* CSS ventana contacto */
@@ -618,41 +774,120 @@ ul{
     margin-left: 120%;
 }
 
-.formularioC{
+.form{
     background-color: gray;
     color: black;
-    margin-top: 8%;
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 35%;
+    text-align: center;
 }
 
 .mensaje{
     color: black;
     position: absolute;
-    left: 42%;
-    top:  50%
+    top:  56.3%;
 }
 
+.asunto{
+    color: black;
+    position: absolute;
+    top:  45.5%;
+}
+
+.textArea{
+    margin-top: 1%;
+}
+
+.desarrollo{
+    margin-top: 1.2%;
+}
+
+.otros{
+    margin-top: 1%;
+}
+
+.mapa{
+    margin-left: 2%;
+}
+
+.direccion{
+    color: white;
+    width: 31%;
+    margin-left: 35.3%;
+}
+
+.footer1{
+    height: 50px;
+}
+
+.instagram1{
+    position: absolute;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    margin-left: 30%;
+    top: 136%
+}
+
+.inta1{
+    width: 35px;
+    margin-left: -20%
+}
+
+.facebook1{
+    color: white;
+    position: absolute;
+    left: 48%;
+    width: 10%;
+    top: 136%;
+    font-size: 20px;
+}
+
+.face1{
+    position: absolute;
+    width: 45px;
+    margin-left: 16%;
+}
+
+.gmail1{
+    color: white;
+    position: absolute;
+    left: 65%;
+    width: 10%;
+    top: 136%;
+    font-size: 20px;
+}
+
+.gma1{
+    width: 25px;
+    position: absolute;
+    width: 25px;
+    margin-left: 32%;
+    top: 135.5%;
+}
 
 /* CSS ventana instalaciones */
 
-.headerI{
+.headerInstalaciones{
     margin: auto;
-    width:1400px;
+    width:1200px;
     font-family: "Bauhaus 93";
     text-align: center;
-    position: absolute;
-    left: 1.2%;
+    position: relative;
 }
 
 ul{
     list-style: none;
     position: relative;
+    left: 1.4%;
 }
 
-.instalaciones li a{
+.menuInstalaciones li a{
     background-color: gray;
     color: black;
     text-decoration: none;
-    padding: 4px 31.3px;
+    padding: 4px 34px;
     display: block;
     font-size: 20px;
     min-width: 120px;
@@ -660,27 +895,74 @@ ul{
     border: 1px solid black;
 }
 
-.instalaciones li a:hover{
+.menuInstalaciones li a:hover{
     background-color: blue;
     color: white;
 }
 
-.instalaciones > li{
+.menuInstalaciones > li{
     float: left;
 }
 
-.instalaciones li ul{
+.menuInstalaciones li ul{
     display: none;
     position: absolute;
     width: 10%;
-    left: 15.8%;
+    left: 18.4%;
 }
 
-.instalaciones li:hover > ul{
+.menuInstalaciones li:hover > ul{
     display: block;
 }
 
-/* CSS ventana PCs */
+
+.divInstalaciones{
+    height: 370px;
+    margin-top: 10%;
+    margin-left: 25.5%;
+    text-align: center;
+    background-color: gray;
+    width: 60%;
+}
+
+.introInstalaciones{
+    color: white;
+    font-size: 30px;
+}
+
+.carruselInstalaciones{
+    width: 55%;
+    margin-top: 4.5%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+}
+
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
+}
+
+.face{
+    width: 35px;
+}
+
+/* CSS ventana informatica */
 
 .Ptitulo{
     color: white;
@@ -688,11 +970,10 @@ ul{
 
 .headerI{
     margin: auto;
-    width:1400px;
+    width: 80px;
     font-family: "Bauhaus 93";
     text-align: center;
     position: absolute;
-    left: 1.2%;
 }
 
 ul{
@@ -732,6 +1013,14 @@ ul{
     display: block;
 }
 
+.menuPcs li ul li{
+    margin-left: 250%;
+}
+
+.productosP{
+    margin-left: 4.9%;
+}
+
 .intro{
     color: white;
     margin-top: 9%;
@@ -742,20 +1031,116 @@ ul{
     text-align: center;
 }
 
-.imgLenovo{
-    width: 40%;
-    height: 50%;
-    margin-left: 35%
+.img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%
 }
 
-.imgHP{
-    width: 40%;
-    height: 50%;
-    margin-left: 35%
+.footer2{
+    position: absolute;
+    top: 295%;
+    width: 99.6%;
+    height: 50px;
 }
 
-.imgMsi{
-    width: 20%;
-    height: 50%;
-    margin-left: 35%
+.instagram2{
+    margin-left: 24%;
+    margin-top: 1.2%;
+    font-size: 20px;
+}
+
+.insta2{
+    width: 4%;
+    position: absolute;
+    top: 2.2%;
+    left: 30%;
+}
+
+.facebook2{
+    font-size: 20px;
+    margin-top: -1.7%;
+    margin-left: 50%;
+}
+
+.face2{
+    width: 5%;
+    position: absolute;
+    bottom: 1%;
+    left: 55%;
+}
+
+.gmail2{
+    margin-top: -1.5%;
+    margin-left: 75%;
+    font-size: 20px;
+}
+
+.gma2{
+    width: 2.5%;
+    position: absolute;
+    bottom: 1.3%;
+    left: 80%;
+}
+
+/* CSS ventana comunicaciones (dentro de productos) */
+
+.imgC{
+    width: 30%;
+    margin-left: 34%;
+}
+
+.imgWalki{
+    margin-left: 34%;
+    width: 30%;
+}
+
+.imgHuawei{
+    margin-left: 34%;
+    width: 30%;
+}
+
+
+
+/* CSS ventana Videojuegos */
+
+.asterisco{
+    color: white;
+    margin-left: 20%;
+    margin-top: 0.2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.advertencia{
+    width: 7%;
+    margin-top: -12%;
+    margin-left: 19%;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid white;
+    width: 99.5%;
+    top: 92%;
+    height: 50px;
+}
+
+.instagram{
+    position: absolute;
+    bottom: 10px;
+}
+
+.facebook{
+    position: relative;
+    bottom: -80%;
+    
+}
+
+.insta{
+    width: 35px;
+}
+
+.face{
+    width: 35px;
 }
